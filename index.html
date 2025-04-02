@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+    </style>
+
+
 </head>
 <body>
     <div class="container">
@@ -14,6 +26,14 @@
         <h4 id="cpStatus"></h4>
         <button id="btEstado">Estado</button>
     </div>
-    <script src="./js/main.js"> </script>
+
+    
+
+
+    <!-- Aqui está a div do mapa -->
+    <div id="map"></div>
+
+    <script src="./js/main.js"></script>
+
 </body>
 </html>
